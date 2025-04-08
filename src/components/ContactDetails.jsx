@@ -39,6 +39,7 @@ const ContactDetails = () => {
       <Link to="/">⬅️ Back to Contacts</Link>
     </div>
   );
+  
 };
 
 export default ContactDetails;

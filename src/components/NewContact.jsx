@@ -17,6 +17,7 @@ const NewContact = () => {
     const docRef = await addDoc(collection(db, 'contacts'), form);
     navigate(`/contact/${docRef.id}`);
   };
+  
 
   return (
     <div>

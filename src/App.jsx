@@ -32,14 +32,15 @@
 // }
 
 // export default App
+
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { collection, query, orderBy, onSnapshot } from 'firebase/firestore';
-import './App.css'; // Or the appropriate path to your CSS file
+import './App.css'; /
 import { Link } from 'react-router-dom';
 import db from './db';
 
-// Import your components (you'll need to create these)
+// Import components
 import ContactList from './components/contactList';
 import ContactDetails from './components/ContactDetails';
 import NewContact from './components/NewContact';

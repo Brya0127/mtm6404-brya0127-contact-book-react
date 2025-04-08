@@ -17,6 +17,7 @@ const EditContact = () => {
       } else {
         navigate('/');
       }
+      
     };
     fetchContact();
   }, [id, navigate]);
