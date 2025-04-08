@@ -52,7 +52,7 @@
 body {
   font-family: 'Arial', sans-serif;
   background-color: #121212; 
-  color: #fff; /* White text for contrast */
+  color: #fff;
   /* height: 100vh; */
   display: flex;
   flex-direction: column;
@@ -77,13 +77,13 @@ input {
   max-width: 400px;
   border: none;
   border-radius: 50px;
-  background-color: #333333; /* Dark gray for input */
+  background-color: #333333;
   color: #fff;
   outline: none;
 }
 
 input::placeholder {
-  color: #b3b3b3; /* Light gray for placeholder text */
+  color: #b3b3b3; 
 }
 
 /* List of Contacts */
@@ -129,7 +129,7 @@ button {
 }
 
 button:hover {
-  background-color: #1ed760; /* Lighter green when hovered */
+  background-color: #1ed760; /* Lighter green */
 }
 
 button:disabled {
